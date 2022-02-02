@@ -1,1 +1,1 @@
-# Frost Calamares config
+# ADK Calamares config
