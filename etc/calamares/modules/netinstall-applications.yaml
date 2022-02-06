@@ -27,8 +27,8 @@
   packages:
     - tor
     - privoxy
-- name: "Virtualbox for Linux or Linux-lts kernel"
-  description: "Installs virtualbox for or linux-lts kernel"
+- name: "Virtualbox for Linux"
+  description: "Installs virtualbox"
   critical: false
   hidden: false
   selected: false
