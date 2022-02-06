@@ -3,7 +3,7 @@
   critical: false
   hidden: false
   selected: false
-  expanded: false
+  expanded: true
   packages:
     - gimp
     - inkscape
