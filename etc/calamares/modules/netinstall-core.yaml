@@ -1,0 +1,40 @@
+- name: "Laptop Management"
+  description: "Laptop Management"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - tlp
+    - upower
+    - system76-power
+    - xf86-input-synaptics
+- name: "Printing Support"
+  description: "Add Printer Support"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "HP Printer"
+        description: "Install HP Printer"
+        selected: false
+        packages:
+           - hplip
+           - python-pyqt5
+           - python-reportlab
+      - name: "Foomatic Printer Drivers"
+        description: "Foomatic based Printer Drivers"
+        selected: false
+        packages:
+           - foomatic-db
+           - foomatic-db-engine
+           - foomatic-db-nonfree
+           - foomatic-db-ppds
+           - foomatic-db-nonefree-ppds
+           - foomatic-db-gutenprint-ppds
+      - name: "Complete list of Printer Drivers"
+        description: "Printer Drivers"
+        selected: false
+        packages:
+           - printer-support
+           - system-config-printer
