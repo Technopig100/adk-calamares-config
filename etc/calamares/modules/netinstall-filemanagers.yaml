@@ -6,10 +6,10 @@
   expanded: true
   packages:
     - caja
-    - dolphin
     - mc
     - nautilus
     - nemo
     - nemo-fileroller
     - pcmanfm
     - ranger
+    - thunar

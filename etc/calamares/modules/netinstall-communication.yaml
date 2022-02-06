@@ -5,7 +5,9 @@
   selected: false
   expanded: true
   packages:
-    - hexchat    
+    - hexchat
+    - caprine
+    - dicord    
     - krdc
     - pidgin    
     - qtox

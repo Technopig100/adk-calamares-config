@@ -1,24 +1,14 @@
-- name: "Accessories"
-  description: "Accessories"
+- name: "Development"
+  description: "Development"
   critical: false
   hidden: false
   selected: false
   expanded: true
   packages:
-    - cheese
-    - flameshot-git
-    - liferea
-    - mediainfo-gui
-    - mcomix
-    - pdfarranger
-- name: "Git"
-  description: "Git applications"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - gitg
+    - cmake
+    - cuttlefish
+    - gitahead
+    - kompare
 - name: "Password Manager"
   description: "Password managers"
   critical: false
@@ -27,8 +17,9 @@
   expanded: true
   packages:
     - keepassxc
+    - 1password
 - name: "Privacy"
-  description: "Applications that ensure your privacy"
+  description: "Privacy"
   critical: false
   hidden: false
   selected: false
@@ -36,8 +27,8 @@
   packages:
     - tor
     - privoxy
-- name: "Virtualbox for Linux kernel"
-  description: "Installs virtualbox for linux kernel"
+- name: "Virtualbox for Linux or Linux-lts kernel"
+  description: "Installs virtualbox for or linux-lts kernel"
   critical: false
   hidden: false
   selected: false
@@ -46,14 +37,3 @@
     - virtualbox
     - virtualbox-host-dkms
     - linux-headers
-- name: "Virtualbox for Linux-lts kernel"
-  description: "Installs virtualbox for linux-lts kernel"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - virtualbox
-    - virtualbox-host-dkms
-    - linux-lts-headers
-    - linux-lts

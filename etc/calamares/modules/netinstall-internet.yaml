@@ -5,15 +5,18 @@
   selected: false
   expanded: true
   packages:
+    - akregator
+    - chromium
     - deluge
     - evolution
-    - falkon
+    - firefox
     - filezilla
     - firefox-adblock-plus
     - firefox-i18n-$LOCALE
-    - firefox-ublock-origin
     - geary
     - ktorrent
+    - kget
+    - mailspring
     - midori
     - min
     - netsurf
@@ -22,3 +25,4 @@
     - qutebrowser
     - thunderbird
     - transmission-gtk
+    - vivaldi
