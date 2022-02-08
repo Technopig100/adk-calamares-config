@@ -31,10 +31,10 @@
            - foomatic-db-nonfree
            - foomatic-db-ppds
            - foomatic-db-nonefree-ppds
-           - foomatic-db-gutenprint-ppds
-      - name: "Complete list of Printer Drivers"
-        description: "Printer Drivers"
+      - name: "List of Nvidia Drivers"
+        description: "Nvidia Drivers"
         selected: false
         packages:
-           - printer-support
-           - system-config-printer
+           - nvidia
+           - nvidia-settings
+           - nvidia-utils
