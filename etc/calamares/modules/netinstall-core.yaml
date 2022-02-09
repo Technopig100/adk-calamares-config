@@ -9,6 +9,16 @@
     - upower
     - system76-power
     - xf86-input-synaptics
+- name: "Nvidea Drivers"
+  description: "Nvidia Drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
 - name: "Printing Support"
   description: "Add Printer Support"
   hidden: false
@@ -31,10 +41,4 @@
            - foomatic-db-nonfree
            - foomatic-db-ppds
            - foomatic-db-nonefree-ppds
-      - name: "List of Nvidia Drivers"
-        description: "Nvidia Drivers"
-        selected: false
-        packages:
-           - nvidia
-           - nvidia-settings
-           - nvidia-utils
+      
