@@ -5,7 +5,8 @@
   selected: false
   expanded: true
   packages:
+    - adkstick
     - baobab
     - brasero
     - xfburn
-    - adkstick
+    

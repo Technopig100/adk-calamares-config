@@ -10,9 +10,16 @@
     - bleachbit
     - catfish
     - flatpak
+    - filelight
     - glances
+    - gnome-notes
+    - gnome-disk-utility
     - grsync
+    - kate
     - kbackup
+    - kcalc
+    - kfind
+    - kgpg
     - nvtop
     - open-vm-tools
     - parcellite
@@ -22,17 +29,18 @@
     - screenfetch
     - sigil
     - solaar
+    - spectacle
+    - sweeper
     - synapse
     - sysprof
     - vnstat
     - wireshark-qt
     - workrave
-    - filelight
-    - gnome-disk-utility
-    - kcalc
-    - kate
-    - kfind
-    - kgpg
-    - gnome-notes
-    - spectacle
-    - sweeper
+    
+
+    
+    
+    
+    
+    
+    
