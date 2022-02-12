@@ -13,25 +13,25 @@
     - ghostwriter
     - gnumeric
     - scribus    
-    - name: "Libre Office Fresh"
-      description: "Installs libre office fresh - feature branch - conflicts with still"
-      critical: false
-      hidden: false
-      selected: false
-      expanded: true
-      packages:
-        - libreoffice-fresh
-        - libreoffice-fresh-$LOCALE
-        - hunspell-$LOCALE
-    - name: "Libre Office Still"
-      description: "Installs libre office still - stable branch - conflicts with fresh"
-      critical: false
-      hidden: false
-      selected: false
-      expanded: true
-      packages:
-        - libreoffice-still
-        - libreoffice-still-$LOCALE
-        - hunspell-$LOCALE
+- name: "Libre Office Fresh"
+  description: "Installs libre office fresh - feature branch - conflicts with still"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+- name: "Libre Office Still"
+  description: "Installs libre office still - stable branch - conflicts with fresh"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
+    - hunspell-$LOCALE
 
    
