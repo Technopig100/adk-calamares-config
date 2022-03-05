@@ -1,1 +1,1 @@
-# ADK Calamares config
+# ADK Calamares configuration files
