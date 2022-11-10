@@ -19,9 +19,9 @@ To build you will need to install:
 -  adklinux-keyring
 -  adk-mirrorlist
 
-Download and or buil dklinux-keyring & adk-mirrorlist:
+Download and or build adk-linux-keyring & adk-mirrorlist:
 
 -  git clone https://github.com/Technopig100/adk-pkgbuild.git
--  sudo pacman -U adklinux-keyring adk-mirrorlist
+-  sudo pacman -U adk-linux-keyring adk-mirrorlist
 
 ## Start building your own ADK-Linux version of ADK Calamares configuration files with the use of this script!
