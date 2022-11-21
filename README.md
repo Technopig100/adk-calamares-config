@@ -16,7 +16,7 @@ In this repository you'll find:
 
 To build you will need to install:
 
--  adklinux-keyring
+-  adk-linux-keyring
 -  adk-mirrorlist
 
 Download and or build adk-linux-keyring & adk-mirrorlist:
